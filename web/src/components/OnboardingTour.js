@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { useAuth } from "../lib/auth";
 
-const Joyride = dynamic(() => import("react-joyride").then((mod) => mod.default), { ssr: false });
+const Joyride = dynamic(() => import("./JoyrideWrapper"), { ssr: false });
 
 export default function OnboardingTour() {
   const { user } = useAuth();
