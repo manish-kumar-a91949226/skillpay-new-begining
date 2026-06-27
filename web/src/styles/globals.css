@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0b0e0d;
+  --ink-raised: #111513;
+  --ink-line: #1e2422;
+  --bone: #e8e4dc;
+  --bone-dim: #9b968c;
+  --bone-faint: #5c5a54;
+  --gold: #d4a24c;
+  --gold-dim: #8a6b34;
+  --slate: #5b8c8a;
+  --slate-dim: #3d5e5c;
+  --rust: #b85c42;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--ink);
+  color: var(--bone);
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--gold-dim);
+  color: var(--ink);
+}
+
+/* visible keyboard focus, never suppressed */
+:focus-visible {
+  outline: 1px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* --- Ledger row system --------------------------------------------- */
+/* The core visual signature: rows separated by hairline rules, like a
+   bank statement / git log, instead of card grids. */
+
+.ledger {
+  border-top: 1px solid var(--ink-line);
+}
+
+.ledger-row {
+  display: grid;
+  border-bottom: 1px solid var(--ink-line);
+  padding: 1.1rem 0;
+  transition: background-color 120ms ease;
+}
+
+.ledger-row:hover {
+  background-color: var(--ink-raised);
+}
+
+.tag {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.tag-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.mono-amount {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-feature-settings: "tnum";
+}
+
+/* settlement ticker (signature element on the dashboard) */
+.settle-track {
+  display: flex;
+  width: max-content;
+  animation: settle-scroll 28s linear infinite;
+}
+
+.settle-track:hover {
+  animation-play-state: paused;
+}
