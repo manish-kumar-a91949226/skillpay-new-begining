@@ -5,7 +5,7 @@ A production-ready blockchain-powered Learn & Earn platform built on the Stellar
 ## 🚀 Live Links
 - **Live MVP (Frontend):** [Insert Vercel Link]
 - **Backend API:** [Insert Render Link]
-- **Pitch Deck:** [View Pitch Deck](pitch_deck.md)
+- **Pitch Deck:** [Download Pitch Deck (PPTX)](SkillPay.pptx)
 - **Video Demo:** [Insert Video Link]
 - **Platform Escrow / Contract Address (Testnet):** `GBCPCCSQGQ33Q65GIDG43KOKWG2HKP7QGDLMDGRVLWMGJYVTBKKV3RDE`
 
@@ -46,11 +46,37 @@ Based on the feedback collected from the Google Form responses (see CSV above), 
 
 ## 📸 Screenshots & Evidence
 
-| Landing Page | Open Challenges |
+### Welcome & Onboarding
+| Landing Page | Sign Up |
 |:---:|:---:|
-| ![Landing Page](assets/landing%20page.png) | ![Open Challenges](assets/open%20challenges.png) |
+| ![Landing Page](assets/landing%20page.png) | ![Sign Up](assets/sign%20up%20page.png) |
 
-*(Add screenshots of the new Analytics and Onboarding Tour here!)*
+| User Guide | Notifications |
+|:---:|:---:|
+| ![User Guide](assets/user_guide.png) | ![Notifications](assets/notifications.png) |
+
+### Learner Experience
+| Learner Dashboard | Open Challenges |
+|:---:|:---:|
+| ![Learner Dashboard](assets/learner_dashboard.png) | ![Open Challenges](assets/open%20challenges.png) |
+
+| Submit Work | Earning Graph |
+|:---:|:---:|
+| ![Submit Work](assets/submit%20your%20work.png) | ![Earning Graph](assets/earning_graph.png) |
+
+### Mentor Experience
+| Mentor Dashboard | Post a Challenge |
+|:---:|:---:|
+| ![Mentor Dashboard](assets/mentor%20dashboard.png) | ![Post a Challenge](assets/post%20a%20challnege.png) |
+
+| Fund Challenge | Submissions List |
+|:---:|:---:|
+| ![Fund Challenge](assets/fund%20challenge.png) | ![Submissions](assets/mentor_submiisons%20lists%20for%20challenge.png) |
+
+### Analytics & Mobile
+| Analytics Dashboard | Mobile View |
+|:---:|:---:|
+| ![Analytics Dashboard](assets/analytics_dashboard.png) | ![Mobile View](assets/mobile_view.png) |
 
 ---
 
