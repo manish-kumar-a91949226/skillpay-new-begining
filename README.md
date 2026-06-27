@@ -19,7 +19,7 @@ To validate SkillPay with real users, we launched a Beta phase targeting testnet
 
 ### User Feedback & Registration
 We created a Google Form to capture user registrations, wallet addresses, and product feedback.
-- **[Google Form Link for Registration](Insert Google Form Link Here)**
+- **[Google Form Link for Registration](https://docs.google.com/forms/d/e/1FAIpQLSf3CUwgOhw--TkNacSIKlKaoyRsxHDI3lNSO5TEBGHlnLBsfA/viewform?usp=publish-editor)**
 - **[Download Exported Excel/CSV Form Responses](user_feedback_responses.csv)**
 
 <details>
