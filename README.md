@@ -6,7 +6,7 @@ A production-ready blockchain-powered Learn & Earn platform built on the Stellar
 - **Live MVP (Frontend):** [https://skillpay-new-begining.vercel.app](https://skillpay-new-begining.vercel.app)
 - **Backend API:** [https://skillpay-new-begining.onrender.com](https://skillpay-new-begining.onrender.com)
 - **Pitch Deck:** [Download Pitch Deck (PPTX)](SkillPay.pptx)
-- **Video Demo:** [Insert Video Link]
+- **Video Demo:** [Watch Demo Video (Google Drive)](https://drive.google.com/file/d/1_5O4pPmIC3JsgRT0JEhz7jGA1-oIckYB/view)
 - **Platform Escrow / Contract Address (Testnet):** `GBCPCCSQGQ33Q65GIDG43KOKWG2HKP7QGDLMDGRVLWMGJYVTBKKV3RDE`
 
 ---
