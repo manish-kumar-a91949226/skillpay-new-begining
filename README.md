@@ -36,9 +36,9 @@ Based on the feedback collected from the Google Form responses (see CSV above), 
 
 | User Feedback | Our Solution (Level 5 Feature) | Git Commit Proof |
 |---|---|---|
-| *"Needs better onboarding for beginners."* | **Interactive User Onboarding:** Added a `react-joyride` guided tour that walks new users through the platform seamlessly. | [Commit Link] |
-| *"Dashboard analytics would be great."* | **Visual Analytics:** Integrated `recharts` to display visual "Earnings Growth" and "Engagement Overview" graphs on the dashboards. | [Commit Link] |
-| *"I don't know when my work gets approved unless I check."* | **In-App Notification Center:** Added a notification bell dropdown using `lucide-react` to keep users updated on challenges and payouts. | [Commit Link] |
+| *"Needs better onboarding for beginners."* | **Interactive User Onboarding:** Added a `react-joyride` guided tour that walks new users through the platform seamlessly. | [c99415c](https://github.com/manish-kumar-a91949226/skillpay-new-begining/commit/c99415c) |
+| *"Dashboard analytics would be great."* | **Visual Analytics:** Integrated `recharts` to display visual "Earnings Growth" and "Engagement Overview" graphs on the dashboards. | [bf6eb2a](https://github.com/manish-kumar-a91949226/skillpay-new-begining/commit/bf6eb2a) |
+| *"I don't know when my work gets approved unless I check."* | **In-App Notification Center:** Added a notification bell dropdown using `lucide-react` to keep users updated on challenges and payouts. | [c99415c](https://github.com/manish-kumar-a91949226/skillpay-new-begining/commit/c99415c) |
 
 *(For earlier feedback iterations from Level 4, see [feedback_summary.md](feedback_summary.md))*
 
