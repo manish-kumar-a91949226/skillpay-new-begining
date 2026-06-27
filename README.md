@@ -23,7 +23,7 @@ We created a Google Form to capture user registrations, wallet addresses, and pr
 - **[Download Exported Excel/CSV Form Responses](user_feedback_responses.csv)**
 
 <details>
-<summary><b>View JSON Proof of Early Transactions (Level 4 Users)</b></summary>
+<summary><b>View JSON Proof of Early Transactions</b></summary>
 
 [View JSON Proof of Transactions](users_transations.json)
 </details>
