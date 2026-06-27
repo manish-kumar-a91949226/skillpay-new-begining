@@ -1,8 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Joyride, { STATUS } from "react-joyride";
+import dynamic from "next/dynamic";
 import { useAuth } from "../lib/auth";
+
+const Joyride = dynamic(() => import("react-joyride"), { ssr: false });
 
 export default function OnboardingTour() {
   const { user } = useAuth();
@@ -19,7 +21,7 @@ export default function OnboardingTour() {
 
   const handleJoyrideCallback = (data) => {
     const { status } = data;
-    const finishedStatuses = [STATUS.FINISHED, STATUS.SKIPPED];
+    const finishedStatuses = ["finished", "skipped"];
     
     if (finishedStatuses.includes(status)) {
       setRun(false);
